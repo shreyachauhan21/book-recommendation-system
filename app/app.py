@@ -6,7 +6,7 @@ from recommender import GenreRecommender
 books = pd.read_csv("data/merged_books.csv")  # after joining tags
 recommender = GenreRecommender(books)
 
-st.title("📚 Genre-Based Book Recommendation")
+st.title("📚 Book Recommendation")
 
 user_input = st.text_input("Enter a book title:")
 
